@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Peddana&family=Poppins:wght@400;500&family=Roboto:wght@700&display=swap" rel="stylesheet">
+      <title>index</title>
+  
+   </head>
+   <body>
+      <!--<div id="splashscreen">-->
+      <!--   <img src="images/Arti_3.png">-->
+      <!--   <h1>Loading...Please wait</h1>-->
+      <!--</div>-->
+      <header>
+         <div class="toggle-btn" onclick="toggle_btn();">
+              <span></span>
+              <span></span>
+              <span></span>
+         </div>
+
+         <div class="logo">
+            <img src="Images/arti.png"  data-aos="fade-left">
+         </div>
+
+         <nav id="nav" data-aos="fade-right">
+         <ul  >
+            <li><i class="fa fa-home" style="color:white;" aria-hidden="true"></i> <a href="#hero">Home</a></li>
+            <li><i class="fa fa-sign-in" style="color:white;" aria-hidden="true"></i> <a href="User_info/login.php">Login</a></li>
+            <li><i class="fa fa-user-plus" style="color:white;" aria-hidden="true"></i> <a href="Register_Info/register.php">Register</a></li>
+            <li><i class="fa fa-users" style="color:white;" aria-hidden="true"></i> <a href="#about">About</a></li>
+            <li><i class="fa fa-wrench" style="color:white;" aria-hidden="true"></i> <a href="#service-section">Services</a></li>
+            <li><i class="fa fa-pencil" style="color:white;" aria-hidden="true"></i> <a href="#article-section">Article</a></li>
+            <li><i class="fa fa-phone" style="color:white;" aria-hidden="true"></i> <a href="#contactus">Contactus</a></li>
+         </ul>
+      </nav>
+   </header>
+
+      <!--hero section-->
+      
+      <section class="video-container" >
+         <!-- <div class="font_hero">
+            <h2 >Welcome to Artishare</h2>
+            <h4 class="animated-text">
+               Indias largest readers,writers hub.....!
+            </h4>
+         </div> -->
+         <div >
+            <video autoplay muted loop>
+              <source src="Images/bgvideo1.mp4" type="video/mp4" />
+            </video>
+            <div class="glass-overlay">
+            <h1>Welcome to ArtiShare.....! </h1>
+            <h2>India's largest Readers,Writers hub...!</h2>
+         </div>
+          </div>
+     
+      </section>
+
+     
+
+      <!-- about section -->
+      <section id="about">
+         <div class="about-heading font" data-aos="fade-up">
+            <h3>About</h3>
+         </div>
+         <div class="about-body font">
+            <div data-aos="fade-right">
+               <img src="Images/article.jpg" alt="about" id="about-img">
+            </div>
+            <div class="about-content" data-aos="fade-left">
+               <h3>About me</h3>
+               <h5>
+                  Hi hello how are you? I am fine.
+                  Hi hello how are you? I am fine.
+                  Hi hello how are you? I am fine.
+                  Hi hello how are you? I am fine.
+               </h5>
+            </div>
+         </div>
+      </section>
+      
+      <!--language section-->
+       <section id="language">
+         <div class="language-heading font" data-aos="fade-up">
+            <h3>
+              "Write Your Article in Your Language...!"</h3>
+         </div>
+         <div class="language-font">
+            <div data-aos="fade-right">
+            </div>
+         <center data-aos="fade-left"> <h1>Languages</h1></center>   <br>
+    
+              <div class="language-content" data-aos="fade-left">
+               
+                                        <input type="button" id="lan_button"  value="English">
+                                        <input type="button" id="lan_button"  value="हिन्दी">
+                                        <input type="button" id="lan_button"  value="ಕನ್ನಡ">
+                                        <input type="button" id="lan_button"  value="தமிழ்">
+                                        <input type="button" id="lan_button"  value="తెలుగు">
+                                        <input type="button" id="lan_button"  value="മലയാളം">
+                                        <!--<input type="button" id="lan_button"  value="मराठी">-->
+                                        <!--<input type="button" id="lan_button"  value="संस्कृत">-->
+                                        
+                          </div>
+         </div>
+      </section>
+      
+      
+      
+      <!-- 
+         service section -->
+      <section id="service-section">
+         <div class="service-heading font"  data-aos="fade-up">
+            <h3>Services</h3>
+         </div>
+         <div class="services">
+            <div class="font"  data-aos="zoom-in">
+              <i class="fa-solid fa-share" style="color: #f91515;"></i>
+              <h4>Social Sharing </h4>
+               <h5 style="text-align: justify;">
+                  Include social media sharing buttons on each article to make it easy for readers to share content across different platforms.
+               </h5>
+            </div>
+            <div class="font" data-aos="zoom-in">
+              <i class="fa-solid fa-tag"></i>
+              <h4>Categories and Tags</h4>
+              
+               <h5 style="text-align: justify;">
+                 Implement a system of categories and tags to help users categorize their articles and make it easier for readers to discover content on specific topics.
+               </h5>
+            </div>
+            <div class="font" data-aos="zoom-in">
+               <i class="fa-solid fa-user"></i>
+               <h4>User Profiles</h4>
+               <h5 style="text-align: justify;">
+                  Allow users to create profiles where they can manage their published articles, track engagement metrics, and update their information. 
+                  A user dashboard can provide an overview of their articles' performance
+               </h5>
+            </div>
+         </div>
+      </section>
+      <!-- article section -->
+      <article id="article-section">
+         <div class="article-heading font" data-aos="fade-up">
+            <h3>Article</h3>
+            <h3>Top writer's quotes</h3>
+         </div>
+         <div class="article-1" data-aos="fade-left">
+            <div>
+               <img class="article-img1" src="Images/article1.jpg" alt="artilce-image1" >
+            </div>
+            <div class="font">
+               <h5>
+                  <?php
+                     //quotes query
+                     
+                     
+                       $sql = "SELECT `quotes_content`, `quotes_writer` FROM `quotes` where id=1";
+                     
+                       $result = $conn->query($sql);
+                     
+                         if ($result->num_rows > 0) {
+                               while ($row = $result->fetch_assoc()) {
+                                     echo "<p>{$row['quotes_content']}</p>
+                                           <p>-{$row['quotes_writer']}</p>";
+                                 }
+                                 } else {
+                                  echo "No data found.";
+                          }
+                     
+                                  ?>
+               </h5>
+            </div>
+         </div>
+         <div class="article-2" data-aos="fade-right">
+            <div class="font">
+               <h5>
+                  <?php
+                     //quotes query
+                     
+                     
+                       $sql = "SELECT `quotes_content`, `quotes_writer` FROM `quotes` where id=2";
+                     
+                      $result = $conn->query($sql);
+                     
+                         if ($result->num_rows > 0) {
+                               while ($row = $result->fetch_assoc()) {
+                                     echo "<p>{$row['quotes_content']}</p>
+                                           <p>-{$row['quotes_writer']}</p>";
+                                 }
+                                 } else {
+                                  echo "No data found.";
+                          }
+                     
+                                  ?>
+               </h5>
+            </div>
+            <div>
+               <img class="article-img1" src="Images/article2.jpg" alt="artilce-image1" >
+            </div>
+         </div>
+         <div class="article-3" data-aos="fade-left">
+            <div>
+               <img class="article-img1" src="Images/article3.jpg" alt="artilce-image1" >
+            </div>
+            <div class="font">
+               <h5>
+                  <?php
+                     //quotes query
+                     
+                     
+                       $sql = "SELECT `quotes_content`, `quotes_writer` FROM `quotes` where id=3";
+                     
+                      $result = $conn->query($sql);
+                     
+                         if ($result->num_rows > 0) {
+                               while ($row = $result->fetch_assoc()) {
+                                     echo "<p>{$row['quotes_content']}</p>
+                                           <p>-{$row['quotes_writer']}</p>";
+                                 }
+                                 } else {
+                                  echo "No data found.";
+                          }
+                     
+                                  ?>
+               </h5>
+            </div>
+         </div>
+      </article>
+      <!-- footer -->
+      <footer id="contactus">
+         <div class="footer-heading font" data-aos="fade-up">
+            <h3  >Contact us</h3>
+         </div>
+         <div class="footer-body font"  >
+            <i class="fab fa-facebook"></i></a>
+            <i class="fab fa-linkedin" ></i></a>
+            <i class="fab fa-instagram" ></i></a>
+            <i class="fab fa-twitter"></i></a>
+         </div>
+      </footer>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+         AOS.init({
+             offset:400,
+             duration:1000,
+         }
+         );
+      </script>
+     <script type="text/javascript">
+     
+  function toggle_btn() {
+       
+          var navbar=document.getElementById('nav');
+          navbar.classList.toggle('show');
+  }
+
+     </script>
+      <!--<script>-->
+      <!--      window.onload = function() {-->
+      <!--      setTimeout(function() {-->
+      <!--          document.getElementById('splashscreen').style.display = "none";-->
+      <!--          document.getElementById('main-content').style.display = "block";-->
+      <!--}, 1500); // Set the time in milliseconds for how long the splash screen will be displayed-->
+      <!--  }-->
+      <!--</script>-->
+   </body>
+</html>
